@@ -101,6 +101,7 @@ export const Header: React.FC<Props> = ({
           value={title}
           onChange={handleChangeInput}
           disabled={isLoading}
+          style={{ outline: 'none' }}
         />
       </form>
     </header>
